@@ -10,14 +10,22 @@ body {
     padding: 0;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .name {
+    -webkit-text-stroke-width: 0.65px !important;
+    -webkit-text-stroke-color: white !important;
+    color: black !important;
+    text-decoration: none;
+}
+
+.name:a {
     -webkit-text-stroke-width: 0.65px;
     -webkit-text-stroke-color: white;
     color: black;
-}
-
-a {
-    color: white;
     text-decoration: none;
 }
 
@@ -46,7 +54,7 @@ a {
 
 .info {
     font-size: 28px;
-    
+    width: 500px;   
 }
 
 .ascii {

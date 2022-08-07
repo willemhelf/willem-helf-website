@@ -14,15 +14,22 @@ body {
     font-size: 28px;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .name {
+    -webkit-text-stroke-width: 0.65px !important;
+    -webkit-text-stroke-color: white !important;
+    color: black !important;
+    text-decoration: none;
+}
+
+.name:a {
     -webkit-text-stroke-width: 0.65px;
     -webkit-text-stroke-color: white;
     color: black;
-    margin: 0 auto;
-}
-
-a {
-    color: white;
     text-decoration: none;
 }
 
