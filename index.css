@@ -76,15 +76,27 @@ a {
 /* mobile */
 
 @media only screen and (max-width: 1050px) {
+    body {
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+    }
+    .container {
+        border: hidden;
+        text-align: center;
+        width: 100%;
+    }
     .name {
-        font-size: 74px;
+        font-size: 69px;
+        list-style-type: none;
     }
     .links {
-        font-size: 66px;
-    }
-    .about-body {
         font-size: 40px;
-        width: 700px;
-        margin-top: 60px;
+    }
+    .info {
+        width: 100%;
+    }
+    .footer {
+        visibility: hidden;
     }
   }

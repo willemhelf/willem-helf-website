@@ -18,6 +18,7 @@ body {
     -webkit-text-stroke-width: 0.65px;
     -webkit-text-stroke-color: white;
     color: black;
+    margin: 0 auto;
 }
 
 a {
@@ -52,7 +53,6 @@ a {
 
 .links-list {
     font-size: 22px;
-    width: 500px;
     margin-top: 26px;
 }
 
@@ -69,12 +69,22 @@ a {
 /* mobile */
 
 @media only screen and (max-width: 1050px) {
-    .header {
-        font-size: 50px;
+    body {
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
     }
-    p {
-    font-size: 28px;
-    width: 500px;
-    margin-top: 26px; 
-  }
+    .container {
+        width: 100%;
+    }
+    .name {
+        font-size: 69px;
+        list-style-type: none;
+    }
+    .links {
+        font-size: 40px;
+    }
+    .links-list {
+        font-size: 30px;
+    }
 }

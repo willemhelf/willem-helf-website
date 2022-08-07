@@ -30,3 +30,4 @@ const canvas = document.querySelector('#canvas');
   canvas.addEventListener('mousemove', draw);
   canvas.addEventListener('mouseup', () => isDrawing = false);
   canvas.addEventListener('mouseout', () => isDrawing = false);
+  console.log("You cheeky bitch! You found the easter egg")
