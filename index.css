@@ -10,10 +10,6 @@ body {
     padding: 0;
 }
 
-.container {
-    border-bottom: 1px solid white;
-}
-
 .name {
     -webkit-text-stroke-width: 0.65px;
     -webkit-text-stroke-color: white;
@@ -53,28 +49,8 @@ a {
     width: 500px;
 }
 
-.footer {
-    font-size: 20px;
-    color: white;
-    position: relative;
-}
-
-.footer-wrapper {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-.footer {
-	position: fixed;     
-    text-align: left;    
-    bottom: 0px; 
-    color: white;
-    margin-bottom: 0;
-}
-
-canvas {
-    width: 100%;
+.ascii {
+    margin-top: 44px;
 }
 
 /* mobile */
