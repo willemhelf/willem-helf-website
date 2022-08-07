@@ -46,11 +46,13 @@ a {
 
 .info {
     font-size: 28px;
-    width: 500px;
+    
 }
 
 .ascii {
     margin-top: 44px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /* mobile */
@@ -58,17 +60,16 @@ a {
 @media only screen and (max-width: 1050px) {
     body {
         text-align: center;
-        width: 100%;
+        margin: 0;
+        padding: 0;
         max-width: 100%;
     }
     .container {
-        border: hidden;
         text-align: center;
-        width: 100%;
+        max-width: 100%;
     }
     .name {
         font-size: 69px;
-        list-style-type: none;
     }
     .links {
         font-size: 40px;
