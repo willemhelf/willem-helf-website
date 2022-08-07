@@ -44,6 +44,10 @@ a {
     margin-top: 40px;
 }
 
+.hover-blur:hover {
+    filter: blur(4px);
+}
+
 .info {
     font-size: 28px;
     width: 500px;
@@ -68,3 +72,19 @@ a {
     color: white;
     margin-bottom: 0;
 }
+
+/* mobile */
+
+@media only screen and (max-width: 1050px) {
+    .name {
+        font-size: 74px;
+    }
+    .links {
+        font-size: 66px;
+    }
+    .about-body {
+        font-size: 40px;
+        width: 700px;
+        margin-top: 60px;
+    }
+  }
