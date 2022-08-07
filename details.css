@@ -50,6 +50,10 @@ a {
     color: black;
 }
 
+.hover-blur:hover {
+    filter: blur(4px);
+}
+
 .about-header {
     font-weight: bold;
 }
